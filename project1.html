@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+     .navbar ul{
+        list-style-type: none;
+        height:50px;
+        background-color: chocolate;
+        
+       
+     }
+     .navbar ul li{
+        float:left;
+        
+     }
+     .navbar ul li a{
+        text-decoration: none;
+        display:flex;
+        padding:0px 30px;
+        color:white;
+        line-height: 50px;
+        border-right: 1px solid white;
+    }
+    .navbar ul li a:hover{
+        background-color: bisque;
+        color:black;
+        cursor:grab;
+    }
+
+     .navbar .active a{
+        background-color: bisque;
+        color:black;
+        
+     }
+
+    .background-image{ 
+    background-color:blue;
+    background-image:url("../Salmon-steak.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    
+    }
+    h1{
+        
+      padding-top: 15%;
+      font-size: 25px;
+      text-align: center;
+      text-decoration: solid ;
+      font-weight: 1000;
+      font-size:500%;
+      color:brown;
+    
+    }
+    p{
+        text-align: center;
+        color:whitesmoke;
+        font-size: 35px;
+        padding-top:0px;
+         
+    }
+
+    .wethink{
+        background-color:antiquewhite;
+        padding-top: 200px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 200px;
+        
+    }
+    .main{
+        font-size: 30px;
+    }
+    .menu{
+        background-image: url("../image menu.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding-top: 100px;
+         padding-left: 250px;
+    }
+
+   
+    .main{
+        width:400px;
+        margin:100px auto 0px auto;
+    }
+    h3{
+        text-align:center;
+        padding:20px;
+    }
+
+    .submission{
+        background-color:bisque;
+        width:100%;
+        padding-left: 50px;
+    }
+
+    #register{
+       border-radius: 3px;
+       padding:5px;
+       width:250px;
+    }
+    #submit{
+        border-radius: 3px;
+       padding:5px;
+       height:35px;
+       width:85px;
+       background-color: tomato;
+    }
+    
+
+</style>
+
+<body>
+    <div class="background-image">
+    <nav class="navbar">
+        <ul>
+            <li class="active"><a href="#">HOME</a></li>
+            <li ><a href="#">ABOUT US</a></li>
+            <li ><a href="#">MENU</a></li>
+            <li ><a href="#">TODAY'S SPECIAL</a></li>
+            <li ><a href="#">RATE US</a></li>
+        </ul>
+    </nav>
+    <h1 >BON APPETITE</h1>
+    <p>Give us a chance to fill your heart with Memories.</p>
+     
+    </div>
+    <div>
+    <section class="wethink">
+        <p style= color:black;>
+            Food is not just a cuisine that satisfies our hunger but a way to express our feelings...<br>
+            we choose spicy food to hide our tears...<br>
+            we prefer hot to cold when it's raining.....<br>
+            and in scroching heat we prefer cold to hot...<br>
+            we express our happiness by throwing a party...<br>
+            Last but not least<br>
+            A classic dinner is an important part on a date night,isn't it?<br>
+               So food is not just a food, it is an Emotion - that is what we think and we value your emotions<br>
+
+        </p>
+    </section>
+    </div>
+
+    
+    <section class="menu" >
+        <table style="width:500px;">
+            
+        <caption class="main">
+             Our Menu
+        </caption>
+        <tr style="height:50px;" >
+            <th>Food Item</th>
+            <th>Price</th>
+            
+            
+        </tr>
+
+        <tr style="height:50px;" >
+            <td>The McArabia</td>
+            <td>600</td>
+            
+        </tr>
+        
+        <tr style="height:50px;"  >
+            <td>Spicy Paneer Wrap</td>
+            <td>250</td>
+            
+        </tr>
+
+        <tr style="height:50px;" >
+            <td>Chicken McDo Spaghetti</td>
+            <td>550</td>
+            
+        </tr>
+        
+        <tr style="height:50px;" >
+            <td>McLobster</td>
+            <td>800</td>
+            
+        </tr>
+
+        <tr style="height:50px;" >
+            <td>The Mega Mac</td>
+            <td>950</td>
+            
+        </tr>
+
+        
+        </table>
+    </section>
+
+    <section class="feedback">
+        <div class="main">
+            <div class="submission">
+                <h3>We need your Feedback</h3>
+        <form>
+            <label>Your name</label><br>
+            <input  id="register" type="text" placeholder="Type your name..."><br><br>
+            
+            <label>Email Address</label><br>
+            <input  id="register" type="email" placeholder="Type your email id..."><br><br>
+
+            <label>Your Favourite Food</label><br>
+            <input  id="register" type="text" placeholder="your favorite..."><br><br>
+
+            <label>Your feedback</label><br>
+            <input  id="register" type="text" placeholder="your feedback..."><br><br>
+
+            <input id="submit" type="submit" value="submit">
+        </form>
+        </div>
+        </div>
+    </section>
+    
+    
+    
+</body>
+</html>
